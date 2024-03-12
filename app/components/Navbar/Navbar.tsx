@@ -39,7 +39,7 @@ const Navbar = () => {
                             {/* LOGO */}
 
                             <div className="flex flex-shrink-0 items-center border-right">
-                                <Link href="/" className='text-2xl sm:text-4xl font-semibold text-black'>
+                                <Link href="/" className='text-2xl sm:text-4xl font-semibold text-white'>
                                     Donna McGrath
                                 </Link>
                             </div>
@@ -53,7 +53,7 @@ const Navbar = () => {
                                             key={item.name}
                                             href={item.href}
                                             className={classNames(
-                                                item.current ? 'bg-gray-900' : 'navlinks hover:text-black',
+                                                item.current ? 'bg-gray-900' : 'navlinks hover:text-gray',
                                                 'px-3 py-4 rounded-md text-lg font-normal'
                                             )}
                                             aria-current={item.href ? 'page' : undefined}

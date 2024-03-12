@@ -16,19 +16,19 @@ import Insta from './components/Insta/index';
 
 export default function Home() {
   return (
-    <main>
+    <main className='bg-black text-white'>
       <Banner />
       <Aboutus />
       <Dedicated />
       <Digital />
       <Beliefs />
-      <Wework />
+      {/* <Wework /> */}
       <Ourteam />
       {/* <Featured /> */}
-      <Manage />
+      {/* <Manage /> */}
       <FAQ />
       <Testimonials />
-      <Articles />
+      {/* <Articles /> */}
       <Joinus />
       <Insta />
     </main>

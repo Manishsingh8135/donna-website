@@ -22,7 +22,7 @@ const Drawer = ({ children, isOpen, setIsOpen }: DrawerProps) => {
         >
             <section
                 className={
-                    "w-340px max-w-lg left-0 absolute bg-white h-full shadow-xl delay-400 duration-500 ease-in-out transition-all transform " +
+                    "w-340px max-w-lg left-0 absolute bg-black h-full shadow-xl delay-400 duration-500 ease-in-out transition-all transform " +
                     (isOpen ? "translate-x-0" : "-translate-x-full")
                 }
             >
@@ -31,8 +31,8 @@ const Drawer = ({ children, isOpen, setIsOpen }: DrawerProps) => {
                     <header className="px-4 py-4 flex items-center">
 
                         <div className="flex flex-shrink-0 items-center border-right">
-                            <Link href="/" className='text-2xl font-semibold text-black'>
-                                Desgy Solutions
+                            <Link href="/" className='text-2xl font-semibold text-white'>
+                                Donna McGrath
                             </Link>
                         </div>
 

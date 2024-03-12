@@ -13,19 +13,19 @@ const Aboutdata: datatype[] = [
     {
         heading: "About us.",
         imgSrc: "/images/aboutus/imgOne.svg",
-        paragraph: 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem',
+        paragraph: 'Meet Donna McGrath, former NIH Molecular Biologist turned Miracle Healer and Medical Medium. Discover her journey from groundbreaking scientific research to spiritual enlightenment, prophecies fulfilled, and her mission to facilitate healing miracles worldwide.',
         link: 'Learn more'
     },
     {
         heading: "Services.",
         imgSrc: "/images/aboutus/imgTwo.svg",
-        paragraph: 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem',
+        paragraph: "Experience the transformative power of Donna McGrath's services. From individual counseling sessions to long-distance healing miracles, Donna offers a unique blend of spiritual guidance, energy healing, and clairvoyant insights to address a wide range of physical, emotional, and spiritual challenges.",
         link: 'Learn more'
     },
     {
         heading: "Our Works.",
         imgSrc: "/images/aboutus/imgThree.svg",
-        paragraph: 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem',
+        paragraph: "Explore the impact of Donna McGrath's work worldwide. From facilitating healing miracles to advising on film sets and founding non-profit initiatives, Donna's influence extends beyond individual sessions to empower and uplift communities through spiritual healing and charitable endeavors.",
         link: 'Learn more'
     },
 ]
@@ -34,7 +34,7 @@ const Aboutus = () => {
     return (
 
         <div id="aboutus-section">
-            <div className='mx-auto max-w-7xl px-4 py-24 my-32 lg:px-10 bg-lightgrey rounded-3xl relative'>
+            <div className='mx-auto max-w-7xl px-4 py-24 my-32 lg:px-10 bg-darkblue rounded-3xl relative'>
                 <Image src="/images/aboutus/dots.svg" width={100} height={100} alt="dots-image" className="absolute bottom-1 -left-20" />
                 <h3 className='text-center text-blue text-lg tracking-widest'>ABOUT US</h3>
                 <h4 className='text-center text-4xl lg:text-65xl font-bold'>Know more about us.</h4>

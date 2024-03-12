@@ -15,41 +15,24 @@ interface DataType {
 
 const postData: DataType[] = [
     {
-        name: "Robert Fox",
-        profession: 'CEO, Parkview Int.Ltd',
+        name: "Mike, Maryland",
+        profession: 'PROSTATE CANCER WITH 12 MALIGNANCIES',
         comment: 'A true seeker attended one of my talks in Sedona and called me with his 83 year old father who had 12 malignancies in the prostate area. I performed one session on the father wed night through talking with the son for the session. I was impressed how he knew so much about his father’s life. The father laid next to a Tesla energy device with scalar frequencies during the session, which helped lift the vibrations of the father and hold him to a higher vibration while I accomplished the healing session. On Friday he went to a scan, which I suggested, and was found to be clear of the 12 malignancies. A kernel of the problem was left in the prostate which was readily cleared in the next session. God is Gracious!!!',
         imgSrc: '/images/testimonial/user1.svg',
     },
     {
-        name: "Leslie Alexander",
-        profession: 'CEO, Parkview Int.Ltd',
-        comment: 'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour',
+        name: "ASTHMA",
+        profession: 'Mickey R. and Jonathan R, New Jersey',
+        comment: 'The night before I met Donna, I was exhausted. I prayed to God for relief of my 3 year old’s severe asthmatic condition, which caused him to be on heavy steroids and a nebulizer 24 hours a day. I thought my son was going to die.The next day Donna came to my beauty salon and said she could help. I broke down and cried tears of joy because I knew she was there in answer to my prayers. She worked with him 2 sessions, identified and cleared allergies to dairy, bleach and traumas from the past. In two weeks he was off the nebulizer. Within 4 weeks, we had built up his immune system with nutritional supplements which Donna recommended.. He has not had an asthma attack since. He is now 16 years old, healthy, and well and an aspiring actor.',
         imgSrc: '/images/testimonial/user2.svg',
     },
     {
-        name: "Cody Fisher",
-        profession: 'CEO, Parkview Int.Ltd',
-        comment: 'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour',
+        name: "Daniel L., Calgary, Canada",
+        profession: 'ASTHMA/WHEEZING/GLUTEN INTOLERANCE',
+        comment: 'I am Daniel, 8 years of age, (a genius, by the way), and attended an expo in Oct.2006 in Calgary, Canada. where I met Donna. I had had asthma and wheezing fits since I was 3 years of age. Donna said she could clear me of the asthma and wheezing. During the session at the expo, I went into a trance. The next two sessions were over the phone to the U.S. After the first session, I could run around the playground and play with the bigger boys without losing my breath. She cleared me of allergies to wheat and I could EAT PIZZA! I now am completely free of the allergies, asthma and wheezing! Donna, I Love You .        ',
         imgSrc: '/images/testimonial/user3.svg',
     },
-    {
-        name: "Robert Fox",
-        profession: 'CEO, Parkview Int.Ltd',
-        comment: 'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour',
-        imgSrc: '/images/testimonial/user1.svg',
-    },
-    {
-        name: "Leslie Alexander",
-        profession: 'CEO, Parkview Int.Ltd',
-        comment: 'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour',
-        imgSrc: '/images/testimonial/user2.svg',
-    },
-    {
-        name: "Cody Fisher",
-        profession: 'CEO, Parkview Int.Ltd',
-        comment: 'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour',
-        imgSrc: '/images/testimonial/user3.svg',
-    },
+    
 ]
 
 // CAROUSEL SETTINGS
