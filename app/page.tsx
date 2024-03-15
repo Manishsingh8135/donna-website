@@ -12,6 +12,9 @@ import Testimonials from './components/Testimonials/index';
 import Articles from './components/Articles/index';
 import Joinus from './components/Joinus/index';
 import Insta from './components/Insta/index';
+//import ParentVideo from './components/videos/parent';
+import Example from './components/videos/New';
+import VideoHome2 from './components/Video2/Home';
 
 
 export default function Home() {
@@ -19,6 +22,8 @@ export default function Home() {
     <main className='bg-black text-white'>
       <Banner />
       <Aboutus />
+      <VideoHome2/>
+     
       <Dedicated />
       <Digital />
       <Beliefs />

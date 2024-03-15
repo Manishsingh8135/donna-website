@@ -390,3 +390,70 @@ html {
 .manage > div:nth-child(2) h3 {
   color: #747474;
 }
+
+
+/* styles/global.css */
+
+@media (min-width: 640px) {
+  .max-w-lg {
+    max-width: 50%; /* Two cards in one row on medium screens */
+  }
+}
+
+@media (min-width: 768px) {
+  .max-w-lg {
+    max-width: 33.33%; /* Three cards in one row on large screens */
+  }
+}
+
+/* Additional styling for VideoCard component */
+.max-w-lg {
+  margin: 0 auto;
+}
+
+.video-card {
+  margin-bottom: 1.5rem; /* Adjust spacing between cards */
+}
+
+.video-card .p-4 {
+  padding: 1.5rem;
+}
+
+.video-card h2 {
+  margin-bottom: 1rem;
+}
+
+.video-card button {
+  display: block;
+  margin-top: 1rem;
+}
+
+
+/* styles/global.css */
+
+/* styles/global.css */
+
+/* Center video container and apply equal margins */
+.video-container {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Adjust video card width for larger screens */
+/* styles/global.css */
+
+/* Center video container and adjust layout */
+@media (min-width: 640px) {
+  .video-card {
+    width: 50%; /* Two videos per row on desktop */
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 639px) {
+  .video-card {
+    width: 100%; /* One video per row on smaller screens */
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
