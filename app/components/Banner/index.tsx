@@ -20,11 +20,11 @@ const Banner = () => {
                         </h3>
                         <h5 className='text-xl lg:text-xl font-bold text-white'>NIH SCIENTIST, AUTHOR, SPEAKER & TEACHER</h5>
                     </div>
-                    <div className='my-7 text-center lg:text-start'>
+                    {/* <div className='my-7 text-center lg:text-start'>
                         <button className='text-sm md:text-xl font-semibold hover:shadow-xl bg-blue text-white py-3 px-6 md:py-5 md:px-14 rounded-full hover:bg-hoblue'>
                             Get Started
                         </button>
-                    </div>
+                    </div> */}
                 </div>
 
                 {/* COLUMN-2 */}
